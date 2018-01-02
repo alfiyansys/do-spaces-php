@@ -4,6 +4,9 @@ include "config.php";
 
 class DOS{
 	public function __construct(){		
-		echo END_POINT_URI;
+	}
+
+	public function get_endpoint(){
+		return END_POINT_URI;		
 	}
 }

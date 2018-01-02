@@ -1,4 +1,6 @@
 <?php
 include "DOS.php";
 
-new DOS();
+$do = new DOS();
+
+echo $do->get_endpoint();
